@@ -16,11 +16,11 @@ public class car
     //  any other detatype method will expect to retunr that datatype
     public int totalDistancePerFuel()
     {
-        Console.WriteLine("current fuel: " + _fuel);
-        Console.WriteLine("Gallon Per mile: " + _gallonPerMile);
-        Console.WriteLine($"Gallon Per mile:  {_gallonPerMile} This is the owner: {_owner}");
+    //     Console.WriteLine("current fuel: " + _fuel);
+    //     Console.WriteLine("Gallon Per mile: " + _gallonPerMile);
+    //     Console.WriteLine($"Gallon Per mile:  {_gallonPerMile} This is the owner: {_owner}");
 
-      Console.WriteLine(_fuel/_gallonPerMile + " this how many miles");
+    //   Console.WriteLine(_fuel/_gallonPerMile + " this how many miles");
 
     //   return keyword  is what a method will return/give back
     return _fuel/_gallonPerMile;

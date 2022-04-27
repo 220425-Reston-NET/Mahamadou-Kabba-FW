@@ -2,19 +2,27 @@
 Console.Clear();
 Console.WriteLine("Hello, World!");
 
-Console.WriteLine("Making a car object");
+// Console.WriteLine("Making a car object");
 // [Class name] [NameofObject] = new [class name] ()
 car carObj1 = new car();
 
 // reference class members within object
 int mile = carObj1.totalDistancePerFuel();
 carObj1.Sum(5,10);
-Console.WriteLine(mile);
+// Console.WriteLine(mile);
 string owner = "chadel1";
 car carObj2 = new car(owner);
-Console.WriteLine(carObj2.Owner);
+// Console.WriteLine(carObj2.Owner);
 carObj2.Owner = "Mustapha";
-Console.WriteLine(carObj2.Owner);
+// Console.WriteLine(carObj2.Owner);
 
 carObj2.fuel = 80;
-Console.WriteLine(carObj2.fuel);
+// Console.WriteLine(carObj2.fuel);
+
+// menu stuff  
+// store storeObject1 = new store();
+// Console.WriteLine(storeObject1);
+
+store groceryMenu = new store();
+
+groceryMenu.shop();
