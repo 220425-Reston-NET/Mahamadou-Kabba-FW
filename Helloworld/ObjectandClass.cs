@@ -59,6 +59,24 @@ public string Owner
     // set key word allows you to mess with readonly stuff
     set{_owner = value;}
 }
+
+// fuel can only hold 0-100 use if
+public int fuel 
+{
+    get {return _fuel;}
+    set
+    {
+        if(value <= 100 && value >= 0)
+        {
+         _fuel = value;
+        }  else {
+            Console.WriteLine("you can only put 0-100 in fuel");
+            // throw new Exception("Fuel can only be positive numbers");
+        }
+       
+        
+    }
+}
 }
 
     // this is a constructor 

@@ -15,3 +15,6 @@ car carObj2 = new car(owner);
 Console.WriteLine(carObj2.Owner);
 carObj2.Owner = "Mustapha";
 Console.WriteLine(carObj2.Owner);
+
+carObj2.fuel = 80;
+Console.WriteLine(carObj2.fuel);
