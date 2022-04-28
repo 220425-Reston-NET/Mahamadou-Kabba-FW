@@ -23,6 +23,14 @@ carObj2.fuel = 80;
 // store storeObject1 = new store();
 // Console.WriteLine(storeObject1);
 
-store groceryMenu = new store();
+// store groceryMenu = new store();
 
-groceryMenu.shop();
+// groceryMenu.shop();
+
+// ==============
+collection collectObj = new collection();
+collectObj.collectionMain();
+
+// ========
+// invoking static stuff 
+Conversions.ConversionsMenu();
