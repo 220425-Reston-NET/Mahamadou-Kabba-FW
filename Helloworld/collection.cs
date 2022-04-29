@@ -75,7 +75,7 @@ _personAge.Add("Troy", 31);
 _personAge.Add("Maaz", 24);
 
 Console.WriteLine(_personAge["Maaz"]);
-//  ArrayList use to list all diferent datatype
+//  ArrayList use to list all
 Console.WriteLine("===ArrayList Demo====");
 _numbersArrayList.Add("Helloolloloo");
 _numbersArrayList.Add(10);
